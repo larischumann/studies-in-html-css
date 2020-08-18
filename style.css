@@ -1,0 +1,123 @@
+/*header
+sobre
+qualificacoes
+footer*/
+
+body {
+    background: white;
+    font-family: 'Ruda', sans-serif;
+}
+
+/*header*/
+header {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    background: rgba(244, 233, 228, 0.3);
+}
+
+.imagem-perfil {
+    max-width:400px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    margin-left: 25%;
+    align-content: center;
+}
+
+.container {
+    bottom: auto;
+    margin-left: 4em;
+}
+
+.container p {
+    font-size: 30px;
+}
+
+.container h1 {
+    font-size: 40px;
+}
+
+h2, h3 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 25px;
+    /*box-shadow: 10px 10px 10px #F8F2EF;*/
+    background-image: url("https://i.pinimg.com/originals/4e/93/97/4e9397aa09e88e075d8ae725c294ac00.png");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size: 30%;
+}
+
+p {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: justify;
+}
+
+/*sobre*/
+
+ul{
+    list-style-type: none;
+}
+
+.qualificacoes {
+    background-color: white;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.tabela-linguagens, tr, td, th {
+    margin-left: 25%;
+    align-items: center;
+    text-align: center;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-right: 25%;
+    
+}
+
+.tabela-linguagens td {
+    background-color: #F4E9E4;
+}
+
+.logo-frameworks {
+    display: inline-block;
+    width: 100px;
+    margin-left: ;
+    margin-right: 25%;
+    box-align: center;
+}
+
+.sass {
+    width: 100px;
+}
+
+/*footer*/
+footer {
+    background: rgba(224, 193, 179, 0.3);
+    
+    width: 100%;
+    padding-top: 2em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social {
+    width: 40px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.menu-rodape a {
+    pointer-events: none;        
+    text-decoration: none;
+    color: black;
+}
